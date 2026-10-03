@@ -14,7 +14,7 @@ Follow these steps to set up the project locally on your machine.
 1. **Clone the repository:**
    ```bash
    git clone https://github.com
-   cd your-repo-name
+   cd https://github.com/RatulAch/Voltage-Controlled-Microwave-Pulse-Shaping-with-Superconducting-Qubits.git
    ``
 
 2. **Set up environment variables:**
@@ -62,10 +62,8 @@ Then i perform GRAPE. GRAPE stands for Gradient Ascent Pulse Engineering. GRAPE 
 
 
 
-######################################################
-##########   Output of the project ###################
+## Output of the project 
 
-==============================================================================
 VOLTAGE-CONTROLLED MICROWAVE PULSE SHAPING FOR SUPERCONDUCTING TRANSMON QUBITS
 ==============================================================================
 
@@ -92,7 +90,7 @@ VOLTAGE-CONTROLLED MICROWAVE PULSE SHAPING FOR SUPERCONDUCTING TRANSMON QUBITS
 
 [6] Generating figures...
 
-============================================================
+
 SIMULATION COMPLETE
 ============================================================
 
@@ -122,7 +120,7 @@ SIMULATION COMPLETE
        - STO voltage control provides real-time phase modulation
     
 
-============================================================
+
 EXTENDED DEMONSTRATION
 ============================================================
 
@@ -143,7 +141,7 @@ EXTENDED DEMONSTRATION
   Cryogenic limit: ~10 μW at 10 mK stage
   Multiplexing reduces microwave lines by factor of 4
 
-### Graph-1 ========== Pulse Shapes (Gaussian, DRAG, SEP with Voltage Control)
+### Graph-1 Pulse Shapes (Gaussian, DRAG, SEP with Voltage Control)
 
 ![Pulse Shapes](images/fig1_pulse_shapes.png)
 
@@ -167,7 +165,9 @@ Key points:
 
 
 
-### Graph-2 ========== Qubit Populations
+### Graph-2 Qubit Populations
+
+![Qubit Populations](images/fig2_qubit_populations.png)
 
 Key points:
 
@@ -207,6 +207,8 @@ Fidelity >0.99 is considered 'high-fidelity' gate operation.
 
 
 ### Graph-3
+
+![STO Characterization](images/fig3_sto_characterization.png)
 
 Left (Phase shift): Linear region near zero voltage, saturating at ±15V
 
@@ -252,6 +254,9 @@ Hysteresis (not shown) can occur due to defect states in STO.
 
 
 ### Graph 4
+
+![Grape Convergence](images/fig4_grape_convergence.png)
+
 What to show:
 
 Semilog plot of infidelity vs. iteration number
@@ -303,6 +308,9 @@ They respect hardware constraints (max amplitude, slew rate).
 This closes the loop between theory and experiment.
 
 ### Graph 5
+
+![SEP Frequency Response](images/fig5_sep_frequency_response.png)
+
 What to show:
 
 Frequency spectrum of SEP pulse
@@ -355,7 +363,11 @@ Instead of one microwave line per qubit, we can have 4 qubits per line.
 
 This reduces wiring complexity and cost.
 
-### Graph 6 ======== Scalability Analysis
+### Graph 6 Scalability Analysis
+
+![Scalability](images/fig6_scalability.png)
+
+
 What to show:
 
 Left (Power scaling): Log-log plot showing total power vs. number of qubits
@@ -408,9 +420,6 @@ Combined with SEP, this is a path to 1000+ qubit systems.
 
 
 
-
-
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps to contribute:
@@ -426,10 +435,10 @@ Contributions are welcome! Please follow these steps to contribute:
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 [![License: MIT](https://shields.io)](https://opensource.org)
 
-## 👥 Authors & Acknowledgments
+## 👥 Author
 
-- **Your Name** - *Initial work* - [@yourusername](https://github.com)
-- Thanks to [Shields.io](https://shields.io) for the clean badges!
+- **Ratul Acharjee** - *Voltage Controlled Microwave Pulse Shaping for Superconducting Transmon Qubit* - [@RatulAch](https://github.com/RatulAch)
+
 
 
 
